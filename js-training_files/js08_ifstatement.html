@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>If Statement</title>
+    </head>
+    <body>
+
+        <h1>If Statement</h1>
+
+        <p>What is the weather?</p>
+        <input id="weather" />
+        <button id="myButton">Submit</button>
+
+        <script type="text/javascript">
+
+            //   The first  basic example of if statment
+            /* var x=2;
+
+            if (x==1) {
+                alert("x is 1!"); 
+            } else {
+                alert("x not 1!"); 
+            } */
+
+            //   The second example of if statment
+            document.getElementById("myButton").onclick = function () {
+                if (document.getElementById("weather").value == "rain") {
+                    alert("It's raining");
+                } else {
+                    alert("It's not raining");
+                }
+            };
+        </script>
+
+    </body>
+</html>

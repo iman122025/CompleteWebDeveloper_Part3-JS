@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Accessing Elements</title>        
+    </head>
+    <body>
+
+        <h1>Accessing Elements</h1>
+
+        <p id="text">Some text</p>
+        
+        <script type="text/javascript">
+
+            // this is a comment
+            /*
+               This is the second type of comment. We call it a multi-line comment
+            */
+            // alert(document.getElementById("text").innerHTML);
+            
+            document.getElementById("text").innerHTML="Some more text";
+
+        </script>
+       
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Functions</title>
+    </head>
+    <body>
+        <h1>Functions</h1>
+
+        <p id="paragraph">How many fingers are you holding up?</p>
+
+        <script type="text/javascript">
+            function alertMe() {
+                alert("Hi Iman!");
+            }
+
+            alertMe();
+
+            function adding(a, b) {
+                // alert(a + b);
+                return a + b;
+            }
+
+            // adding(3, 54);
+
+            document.getElementById("paragraph").innerHTML = adding(876, 54);
+        </script>
+    </body>
+</html>

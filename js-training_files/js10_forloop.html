@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>For Loop</title>
+    </head>
+    <body>
+
+        <h1>For Loop</h1>
+
+        <p id="arrayString"></p>
+
+        <p id="arrayString2"></p>
+
+        <script type="text/javascript">
+            var arrayString = "";
+            var myArray = ["pizza", "chips", "icecream"];
+
+            for (var i = 0; i < myArray.length; i++) {
+                // alert(myArray[i]);
+                arrayString = arrayString + myArray[i] + " "; // Concatenation
+            }
+            document.getElementById("arrayString").innerHTML = arrayString;
+
+            // A Reverse for loop
+            var arrayString2 = "";
+
+            for (var i = myArray.length - 1; i >= 0; i--) {
+                arrayString2 = arrayString2 + myArray[i] + " "; 
+            }
+            document.getElementById("arrayString2").innerHTML = arrayString2;
+        </script>
+
+    </body>
+</html>
