@@ -1,2 +1,2 @@
 # CompleteWebDeveloper_Part3-JS
-Complete Web Developer Course_anbilarabi_Part3-JS
+Complete Web Developer Course_anbilarabi_Part3-JavaScript
